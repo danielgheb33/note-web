@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    padding-top: 60px;
+}
+
+.navbar-fixed-top {
+    background-color: rgb(32, 38, 39);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backButton {
+    position: absolute;
+    left: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.ResourcePage {
+    background-color: #111111;
+    overflow: hidden;
+    position: fixed;
+}
+
+.resourcePageTitleStyle {
+    font-family: Playfair Display;
+    color: white;
+}
+
+.resourcePageEditorContainer {
+    height: 85%;
+}
+
+.resourcePageEditorStyle {
+    background: #111111;
+    font-family: Raleway;
+    font-size: 17px;
+    color: white;
+    border-radius: 3px;
+    width: 85%;
+    height: 85%;
+    margin: 20px;
+    padding: 20px;
+    resize: none;
+}

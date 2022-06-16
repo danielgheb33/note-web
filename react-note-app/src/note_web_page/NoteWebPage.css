@@ -1,0 +1,35 @@
+
+.navbar-fixed-top {
+    background-color: rgb(32, 38, 39);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.flex-right {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbarContainer {
+    display: block;
+    background: #111111;
+    font-family: Playfair Display;
+    font-size: 25px;
+    color: #17a2b8;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.navbar-item {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 38px;
+}

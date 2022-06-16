@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.newContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.newFileContainer {
+    font-family: Raleway;
+    padding: 15px;
+}
+
+.newFolderContainer {
+    font-family: Raleway;
+    padding: 15px;
+}
+
+.newFileContainer:hover {
+    transform: scale(1.15);
+}
+
+.newFolderContainer:hover {
+    transform: scale(1.15);
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+body {
+    padding-top: 60px;
+}
+
+.navbar-fixed-top {
+    font-family: Raleway;
+    background-color: rgb(32, 38, 39);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.flex-right {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbarContainer {
+    display: block;
+    background: #111111;
+    font-family: Playfair Display;
+    font-size: 25px;
+    color: #17a2b8;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.navbar-item {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 38px;
+}
+
+.Editor {
+    /*overflow-y: scroll;*/
+    overflow: hidden;
+    position: fixed;
+}
+
+.navbarContainer {
+    background: #29a165;
+    font-family: Playfair Display;
+    font-size: 25px;
+    color: #17a2b8;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.navbarButtonContainer {
+    margin-right: 10px;
+    font-family: Raleway;
+}
+
+.navbarButtonContainer:hover {
+    transform: scale(1.05);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background: #111111;
+    /*align-items: center;*/
+}
+
+.fileSystemContainer {
+    height: 100%;
+    width: 20%;
+    background: #111111;
+    color: #17a2b8;
+    border-right: 1px solid #FFFFFF;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.editorStyle {
+    background: #202020;
+    font-family: Raleway;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px #555;
+    width: 37.5%;
+    height: 70%;
+    margin: 15px;
+    padding: 20px;
+    overflow-y: auto;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.saveContainer {
+    font-family: Raleway;
+    margin-top: 25px;
+    margin-left: 15px;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+
+.saveContainer:hover {
+    transform: scale(1.15);
+}

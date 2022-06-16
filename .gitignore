@@ -1,0 +1,11 @@
+target/
+.mvn-classpath
+.classpath
+.idea/
+.vscode/
+data/
+**.DS_Store**
+*.sqlite3
+cs32-test
+./react-note-app/.vscode
+./react-note-app/node_modules

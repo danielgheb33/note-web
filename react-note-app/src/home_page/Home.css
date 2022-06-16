@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.Home {
+    /*background-image: url("images/HomeBackground.png");*/
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+}
+
+.aboutContainer {
+    font-family: Raleway;
+    font-size: 17.5px;
+    position: absolute;
+    top: 2.5%;
+    right: 27.5%;
+    color: #17a2b8;
+    padding: 5px;
+}
+
+.aboutContainer:hover {
+    text-decoration: underline;
+    transform: scale(1.15);
+}
+
+.termsAndConditionsContainer {
+    font-family: Raleway;
+    font-size: 17.5px;
+    position: absolute;
+    top: 2.5%;
+    right: 14.75%;
+    color: #17a2b8;
+    padding: 5px;
+}
+
+.termsAndConditionsContainer:hover {
+    text-decoration: underline;
+    transform: scale(1.15);
+}
+
+.privacyPolicyContainer {
+    font-family: Raleway;
+    font-size: 17.5px;
+    position: absolute;
+    top: 2.5%;
+    right: 5%;
+    color: #17a2b8;
+    padding: 5px;
+}
+
+.privacyPolicyContainer:hover {
+    text-decoration: underline;
+    transform: scale(1.15);
+}
+
+.typeWriterContainer {
+    font-family: Playfair Display;
+    font-size: 75px;
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+}
+
+/*.loginButtonContainer {*/
+/*    font-family: Raleway;*/
+/*}*/
+
+/*.loginButtonContainer:hover {*/
+/*    transform: scale(1.15);*/
+/*}*/

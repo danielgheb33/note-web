@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.logoutButtonContainer {
+    font-family: Raleway;
+}
+
+.logoutButtonContainer:hover {
+    transform: scale(1.05);
+}

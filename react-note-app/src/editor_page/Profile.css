@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.userInfo {
+    /*width: 40px;*/
+    /*height: 40px;*/
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.userPicture {
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.profileContainer {
+    padding-top: 15px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+}
